@@ -52,7 +52,7 @@ a {
 .narbar {
     display: flex;
     align-items: center;
-    padding-top: 5rem;
+    padding-top: 3.8rem;
 
 }
 
@@ -85,4 +85,41 @@ a {
 .narbar .action-btn {
     padding: 1.3rem 1.6rem;
     margin-left: 1.8rem;
+}
+
+.hero {
+    margin-top: 13rem;
+}
+
+.hero .info {
+    width: 51%;
+}
+
+.hero .sub-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #687690;
+}
+
+.hero .title {
+    margin-top: 0.8rem;
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.19;
+    color: #000336;
+}
+
+.hero .desc {
+    margin-top: 3rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #5A6473;
+}
+
+.hero-cta {
+    min-width: 17rem;
+    margin-top: 0.4rem;
 }
