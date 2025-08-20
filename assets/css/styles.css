@@ -384,7 +384,11 @@ a {
     width: 50%;
 }
 
-.stats .img-block img {
+.stats .img-block {
+    position: relative;
+}
+
+.stats .img-block .image {
     width: 400px;
     height: 460px;
     object-fit: cover;
@@ -395,6 +399,16 @@ a {
 
 .stats .info {
     padding: 7.9rem 0 0 16.5rem;
+}
+
+.stats-trend {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 239px;
+    background: #fff;
+    border-radius: 0 0 1.2rem 1.2rem;
+    padding: 4.5rem 2.2rem 4rem;
 }
 
 .stats .sub-title {
@@ -418,11 +432,36 @@ a {
     border-radius: 1.2rem;
 }
 
-.stats .desc {
+.stats .info .desc {
     margin-top: 2rem;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 1.88;
     color: #5A6473;
     width: 309px;
+}
+
+.stats-trend .value {
+    font-weight: 700;
+    font-size: 2.6rem;
+    letter-spacing: 0.01em;
+    color: #000339;
+}
+
+.stats-trend .icon {
+    margin-left: auto;
+}
+
+.stats-trend .desc {
+    margin-top: 0.8rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #A7A7A7;
+}
+
+.stats-trend .separate {
+    height: 1px;
+    margin-top: 2.5rem;
+    background: #E9E9E9;
 }
