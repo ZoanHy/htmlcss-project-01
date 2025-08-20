@@ -363,3 +363,66 @@ a {
     letter-spacing: 0.01em;
     color: #4D4D52;
 }
+
+/* ======== Stats ======== */
+
+.stats {
+    margin-top: 7.5rem;
+    padding: 5rem 0;
+}
+
+.stats .content {
+    width: 1048px;
+}
+
+.stats .row {
+    display: flex;
+}
+
+.stats .img-block,
+.stats .info {
+    width: 50%;
+}
+
+.stats .img-block img {
+    width: 400px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 1.2rem;
+    display: block;
+    margin-left: auto;
+}
+
+.stats .info {
+    padding: 7.9rem 0 0 16.5rem;
+}
+
+.stats .sub-title {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.29;
+    color: #000339;
+    width: 269px;
+    position: relative;
+}
+
+.stats .sub-title::before {
+    position: absolute;
+    top: -10px;
+    content: "";
+    display: inline-block;
+    width: 4.1rem;
+    height: 0.4rem;
+    background: #000339;
+    margin: 0 auto 1.8rem;
+    border-radius: 1.2rem;
+}
+
+.stats .desc {
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #5A6473;
+    width: 309px;
+}
