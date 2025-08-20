@@ -142,7 +142,7 @@ a {
 
 .hero-img {
     position: absolute;
-    right: calc((100vw - 1110px) / 2);
+    right: calc((100vw - 1110px) / 2 - 100px);
     bottom: 0;
 }
 
