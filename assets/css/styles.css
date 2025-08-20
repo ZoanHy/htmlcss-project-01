@@ -49,6 +49,12 @@ a {
     overflow: hidden;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* ======== Header ======== */
 
 .header {
@@ -143,7 +149,8 @@ a {
 /* ======== Clients ======== */
 
 .clients {
-    margin-top: 12.2rem;
+    margin-top: 7.9rem;
+    padding: 4.3rem 0 6.4rem;
 }
 
 .clients .row {
@@ -172,7 +179,8 @@ a {
 /* ======== Guides ======== */
 
 .guides {
-    margin-top: 20rem;
+    margin-top: 4rem;
+    padding: 9.3rem 0 7.9rem;
 }
 
 .guides .sub-title {
@@ -254,7 +262,7 @@ a {
 /* ======== Features ======== */
 
 .feature {
-    margin-top: 12rem;
+    margin-top: 4.1rem;
     padding: 11rem 0;
     background: #F5FAFE;
 }
