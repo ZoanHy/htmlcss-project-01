@@ -518,3 +518,50 @@ a {
     font-size: 1.8rem;
     color: #7B8087;
 }
+
+/* ======== Subscription ======== */
+
+.subscription {
+    margin-top: 9rem;
+}
+
+.subscription .body {
+    height: 370px;
+    background: #063183;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.subscription .info {
+    padding: 0 8rem;
+    width: 671px;
+}
+
+.subscription .sub-title {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.subscription .desc {
+    margin-top: 1.5rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #fff;
+
+    opacity: 0.75;
+}
+
+.subscription .btn {
+    min-width: 151px;
+    background-color: #fff;
+    color: #002366;
+    margin-top: 2rem;
+}
+
+.subscription .image {
+    align-self: self-end;
+}
