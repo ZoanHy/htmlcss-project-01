@@ -117,15 +117,15 @@ a {
     border-radius: 0.8rem;
 }
 
-.hero {
-    margin-top: 13rem;
+.hero-wrap {
+    justify-content: center;
 }
 
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 1.5;
@@ -133,7 +133,7 @@ a {
     color: #687690;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 0.8rem;
     font-weight: 700;
     font-size: 6.2rem;
@@ -141,7 +141,7 @@ a {
     color: #000336;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 3rem;
     font-weight: 400;
     font-size: 1.8rem;
