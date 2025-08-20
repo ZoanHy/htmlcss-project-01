@@ -243,3 +243,43 @@ a {
 .guide-cta .btn {
     min-width: 17rem;
 }
+
+/* ======== Features ======== */
+
+.feature {
+    margin-top: 23rem;
+}
+
+.feature .sub-title {
+    position: relative;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    color: #000339;
+}
+
+.feature .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.feature .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #5A6473;
+}
+
+.feature .link {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #0689FF;
+    display: flex;
+    align-items: center;
+}
+
+.feature .link .arrow {
+    margin-left: 0.8rem;
+}
