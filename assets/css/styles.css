@@ -30,7 +30,7 @@ a {
 .btn {
     display: inline-block;
     min-width: 9.8rem;
-    border-radius: 0.8rem;
+    border-radius: 1.2rem;
     background: var(--primary-color);
     font-size: 1.4rem;
     text-align: center;
@@ -87,6 +87,7 @@ a {
 .narbar .action-btn {
     padding: 1.3rem 1.6rem;
     margin-left: 1.8rem;
+    border-radius: 0.8rem;
 }
 
 .hero {
