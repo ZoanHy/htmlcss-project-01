@@ -565,3 +565,79 @@ a {
 .subscription .image {
     align-self: self-end;
 }
+
+/* ======== Footer ======== */
+
+.footer {
+    margin-top: 5.5rem;
+    padding: 5rem 0 5.5rem;
+}
+
+.footer .row {
+    display: flex;
+}
+
+.footer .row-top {
+    gap: 18.5rem;
+}
+
+.footer .heading {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 2rem;
+    color: #1C1C1D;
+}
+
+.footer .list,
+.footer .desc {
+    margin-top: 4.2rem;
+}
+
+.footer .item {
+    margin-top: 1.8rem;
+}
+
+.footer .item a,
+.footer .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #5A6473;
+    white-space: nowrap;
+}
+
+.footer .desc {
+    white-space: normal;
+    line-height: 1.75;
+}
+
+.footer .social {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.footer .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 3px;
+    margin-right: 1.6rem;
+    background-color: #F9F9F9;
+}
+
+.footer .social-link:hover {
+    background: #ddd;
+}
+
+.footer .row-bottom {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8.1rem;
+}
+
+.footer .copyright {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #C2C2C2;
+}
