@@ -461,7 +461,7 @@ a {
 }
 
 .stats-trend .separate {
-    height: 1px;
+    height: 1.2px;
     margin-top: 2.5rem;
     background: #E9E9E9;
 }
@@ -475,6 +475,10 @@ a {
 
 .stats .avatar-group {
     display: flex;
+}
+
+.stats .avatar:first-child {
+    margin-left: 0;
 }
 
 .stats .avatar {
@@ -494,4 +498,23 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.stats .row-qty {
+    justify-content: space-between;
+    margin-top: 11rem;
+    padding: 0 3.2rem;
+}
+
+.stats .qty {
+    font-weight: 600;
+    font-size: 6.4rem;
+    color: #000;
+}
+
+.stats .qty-desc {
+    margin-top: 2.4rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #7B8087;
 }
