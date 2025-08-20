@@ -199,5 +199,46 @@ a {
     text-align: center;
     color: #5A6473;
     margin: 2rem auto 0;
+}
 
+.list-guide {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.guide-item {
+    margin: 0 7rem;
+    text-align: center;
+}
+
+.guide-item .title {
+    margin-top: 2.6rem;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.1;
+    color: #3B3C45;
+}
+
+.guide-item .link {
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #0689FF;
+}
+
+.guide-item .arrow {
+    margin-left: 0.6rem;
+}
+
+.guide-cta {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.guide-cta .btn {
+    min-width: 17rem;
 }
